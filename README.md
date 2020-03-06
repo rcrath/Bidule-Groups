@@ -1,8 +1,6 @@
 # Bidule Groups
  Bidule Groups that I made, usually with help!  Or else others made them and I edited, or else, collaboration. 
 
-##Bidule-Groups 
-
 - **AcGuit.bgrp** 
 - **bamboo OSC extract 03.bgrp** 
 - **bamboo synth.bgrp** 
