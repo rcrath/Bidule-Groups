@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
+	<BiduleGroup id="UID_1175854921" displayName="DoNothing" zoom="1" type="com.plogue.groups.DoNothing" processingMode="process" author="Rich Rath" version="1.0">
+		<Geometry x="215" y="83.0001" w="0" h="0"/>
+		<Channel index="0" name="Left side (input value)" direction="input" type="samples"/>
+		<Channel index="1" name="right side (value to be tested against)" direction="input" type="samples"/>
+		<Channel index="0" name="output value" direction="output" type="samples"/>
+		<Gui state="normal" hidden="true" generic="true">
+			<Geometry x="307" y="284" w="433" h="342"/>
+		</Gui>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1175854908" type="com.plogue.RecursiveFunction" displayName="prevX(1)" processingMode="process">
+			<Geometry x="87.333" y="80.778" w="0" h="0"/>
+			<ChannelConfig numSampleIn="3" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="367" y="288" w="290" h="163"/>
+			</Gui>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">prevX(1)</Parameter>
+		</Bidule>
+		<Bidule id="UID_1175854910" type="com.plogue.LogicGate" displayName="&gt;" processingMode="process">
+			<Geometry x="9" y="83" w="0" h="0"/>
+			<ChannelConfig numSampleIn="4" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="307" y="284" w="410" h="168"/>
+			</Gui>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1175854942" type="com.plogue.Comment" displayName="ReadMe" processingMode="process">
+			<Geometry x="129" y="186" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="79" y="159" w="406" h="311"/>
+			</Gui>
+			<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">A logic gate that outputs  a &quot;no change&quot; instead of a zero if equation is false. 
+
+It works like this:
+If the equation is true, output the left-side input.  If false, output whatever the previous true input was.  </Parameter>
+		</Bidule>
+		<Link producerId="UID_1175854910" producerChannel="0" listenerId="UID_1175854908" listenerChannel="0"/>
+		<Link producerId="UID_1175854908" producerChannel="0" listenerId="UID_1175854910" listenerChannel="3"/>
+		<Link producerId="UID_1175854921" producerChannel="0" listenerId="UID_1175854910" listenerChannel="0"/>
+		<Link producerId="UID_1175854921" producerChannel="1" listenerId="UID_1175854910" listenerChannel="1"/>
+		<Link producerId="UID_1175854921" producerChannel="0" listenerId="UID_1175854910" listenerChannel="2"/>
+		<Link producerId="UID_1175854910" producerChannel="0" listenerId="UID_1175854921" listenerChannel="0"/>
+		<VirtualParameter id="0" source="UID_1175854910" param="0" displayName="Operator"/>
+		<VirtualParameter id="1" source="UID_1175854942" param="0" displayName="Comment: "/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+</BoardLayout>

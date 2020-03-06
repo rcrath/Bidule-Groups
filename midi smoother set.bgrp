@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="1">
+	<BiduleGroup id="UID_1553006252" displayName="midi smoother set" zoom="1" type="com.plogue.groups.midi smoother set" processingMode="process" author="rich" version="1.0">
+		<Geometry x="-200" y="101.5" w="0" h="0"/>
+		<Channel index="0" name="MIDI Input Port 1" direction="input" type="midi"/>
+		<Channel index="0" name="MIDI Output Port 1" direction="output" type="midi"/>
+		<Gui state="normal" hidden="true" generic="true">
+			<Geometry x="960" y="374" w="258" h="255"/>
+		</Gui>
+		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1550962534" type="com.plogue.MIDIToValue" displayName="cc smoother" processingMode="process">
+			<Geometry x="-188" y="152.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="593" y="178" w="418" h="271"/>
+			</Gui>
+			<Presets uSize="102997" checkSum="-9789">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</Presets>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="126" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="2" userMin="0" userMax="15" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="3" userMin="1" userMax="10000" lockedForRandom="false" mutationFactor="0.1">4902.470588</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1550962536" type="com.plogue.ParameterModulator" displayName="smoothed CC" processingMode="process">
+			<Geometry x="-235" y="1.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="820" y="432" w="279" h="176"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.621981</Parameter>
+		</Bidule>
+		<Bidule id="UID_1550962538" type="com.plogue.MIDICCCreator" displayName="CC Creator" processingMode="process">
+			<Geometry x="-141" y="-81.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="3" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="820" y="425" w="279" h="190"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1550962540" type="com.plogue.VariableInt" displayName="cc" processingMode="process">
+			<Geometry x="-199" y="-40.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="1151" y="741" w="418" h="184"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1550962544" type="com.plogue.Comment" displayName="instructions:" processingMode="process">
+			<Geometry x="-107" y="106.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="false" generic="true">
+				<Geometry x="1228" y="375" w="323" h="191"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">Set CC #
+Check &quot;Learn CC&quot;
+send CC Data
+CC is set, learn turns off
+</Parameter>
+		</Bidule>
+		<Link producerId="UID_1550962540" producerChannel="0" listenerId="UID_1550962538" listenerChannel="0"/>
+		<Link producerId="UID_1550962534" producerChannel="0" listenerId="UID_1550962536" listenerChannel="0"/>
+		<Link producerId="UID_1550962534" producerChannel="0" listenerId="UID_1550962538" listenerChannel="1"/>
+		<Link producerId="UID_1553006252" producerChannel="0" listenerId="UID_1550962534" listenerChannel="0"/>
+		<Link producerId="UID_1550962538" producerChannel="0" listenerId="UID_1553006252" listenerChannel="0"/>
+		<VirtualParameter id="0" source="UID_1550962544" param="0" displayName="instructions:" GUI="label"/>
+		<VirtualParameter id="1" source="UID_1550962534" param="0" displayName="CC #"/>
+		<VirtualParameter id="2" source="UID_1550962534" param="4" displayName="Learn"/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+	<ParameterLink producerId="UID_1550962534" producerParamId="0" listenerId="UID_1550962540" listenerParamId="0"/>
+</BoardLayout>

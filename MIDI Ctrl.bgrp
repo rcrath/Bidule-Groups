@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="1">
+	<BiduleGroup id="UID_1553006277" displayName="MIDI Ctrl" zoom="1" type="com.plogue.groups.MIDI Ctrl" processingMode="process" author="rich" version="1.0">
+		<Geometry x="70" y="315.5" w="0" h="0"/>
+		<Channel index="0" name="Push" direction="output" type="midi"/>
+		<Channel index="1" name="Breath" direction="output" type="midi"/>
+		<Channel index="2" name="GuitSynth" direction="output" type="midi"/>
+		<Channel index="3" name="STC1000" direction="output" type="midi"/>
+		<Channel index="4" name="SoftStep" direction="output" type="midi"/>
+		<Gui state="normal" hidden="false" generic="true">
+			<Geometry x="1043" y="-6" w="217" h="179"/>
+		</Gui>
+		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1553006272" type="MidiInput_3" displayName="Ableton Push 2" processingMode="process">
+			<Geometry x="-93" y="-150.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2048" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<CustomData name="DeviceName">Ableton Push 2</CustomData>
+		</Bidule>
+		<Bidule id="UID_1553006273" type="MidiInput_6" displayName="Breath Controller 5.0-182607C1" processingMode="process">
+			<Geometry x="-75" y="-170.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2048" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<CustomData name="DeviceName">Breath Controller 5.0-182607C1</CustomData>
+		</Bidule>
+		<Bidule id="UID_1553006274" type="MidiInput_7" displayName="MIDISPORT 2x2 In A" processingMode="process">
+			<Geometry x="-58" y="-189.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="856" y="447" w="207" h="146"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2048" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<CustomData name="DeviceName">MIDISPORT 2x2 In A</CustomData>
+		</Bidule>
+		<Bidule id="UID_1553006275" type="MidiInput_8" displayName="MIDISPORT 2x2 In B" processingMode="process">
+			<Geometry x="-32" y="-209.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2048" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<CustomData name="DeviceName">MIDISPORT 2x2 In B</CustomData>
+		</Bidule>
+		<Bidule id="UID_1553006276" type="MidiInput_5" displayName="SoftStepLoopback" processingMode="process">
+			<Geometry x="-3" y="-231.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2048" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<CustomData name="DeviceName">SoftStepLoopback</CustomData>
+		</Bidule>
+		<Bidule id="UID_1553006285" type="com.plogue.MIDIInputSelector_8" displayName="MIDI Input Selector_0" processingMode="process">
+			<Geometry x="-282" y="-362.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="8" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1553006286" type="com.plogue.VariableInt" displayName="Ctrllr Mon" processingMode="process">
+			<Geometry x="-299" y="-202.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="1176" y="647" w="418" h="184"/>
+			</Gui>
+			<Presets uSize="2465" checkSum="189">eJzt1kFvgjAYBuBd569oevEkFNTMGcDEJS4mOs1Yll07+NBm0JK2TP33qxiNLnNj4QonSN/2/fqc8EbbLEWfIBUT3MeORTACHomY8ZWPp+GiMxj07zsOHgUtb8ziIoWlBAVaIbORq+FWMR+vtc6Htr3ZbKxN1xJyZbuEOPbbfBZGa8hoh3GlKY8AI5MfcvFEM1A5jeCwPhMR1fsB2hcV1lbFbaR3Ofg4EpmVp2JVgPVKJaPvKUy5xkHr1jukEYt9bKbn5mgfLwu1xkgCjQVPdz7egdpnTZhKE9Agy3znDqNCgZwzXm4u3+nWQGCUiugD4omQz5THIvNxQlNlbpAVuhx2QiMtpNlmOThwPPt08k897pUe9589xCK/N5GzIuesaFDvQuarVP7m7Ry9x4ZaN+J1xN1K4u5R/LFgOtzxBr0WercSeveIHr48OISQhrwGea8See9ELhIdasgb8xrm/Urm/aP5Ikka7hrcg2vcnn3xgxO0bv56vgDT3BA2</Presets>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="1" userMax="8" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1553006287" type="com.plogue.MIDIMonitor2" displayName="MidiMon" processingMode="process">
+			<Geometry x="-327" y="-421.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="161" y="65" w="423" h="353"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Link producerId="UID_1553006272" producerChannel="0" listenerId="UID_1553006277" listenerChannel="0"/>
+		<Link producerId="UID_1553006273" producerChannel="0" listenerId="UID_1553006277" listenerChannel="1"/>
+		<Link producerId="UID_1553006274" producerChannel="0" listenerId="UID_1553006277" listenerChannel="2"/>
+		<Link producerId="UID_1553006275" producerChannel="0" listenerId="UID_1553006277" listenerChannel="3"/>
+		<Link producerId="UID_1553006276" producerChannel="0" listenerId="UID_1553006277" listenerChannel="4"/>
+		<Link producerId="UID_1553006272" producerChannel="0" listenerId="UID_1553006285" listenerChannel="1"/>
+		<Link producerId="UID_1553006273" producerChannel="0" listenerId="UID_1553006285" listenerChannel="2"/>
+		<Link producerId="UID_1553006274" producerChannel="0" listenerId="UID_1553006285" listenerChannel="3"/>
+		<Link producerId="UID_1553006275" producerChannel="0" listenerId="UID_1553006285" listenerChannel="4"/>
+		<Link producerId="UID_1553006276" producerChannel="0" listenerId="UID_1553006285" listenerChannel="5"/>
+		<Link producerId="UID_1553006286" producerChannel="0" listenerId="UID_1553006285" listenerChannel="0"/>
+		<Link producerId="UID_1553006285" producerChannel="0" listenerId="UID_1553006287" listenerChannel="0"/>
+		<VirtualParameter id="3" source="UID_1553006287" param="-8" displayName="Mon"/>
+		<VirtualParameter id="4" source="UID_1553006286" param="-5" displayName="Ctrllr"/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+</BoardLayout>

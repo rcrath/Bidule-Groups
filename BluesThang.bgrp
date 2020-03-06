@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
+	<BiduleGroup id="UID_1305799617" displayName="BluesThang" zoom="1" type="com.plogue.groups.BluesThang" processingMode="process" author="music" version="1.0">
+		<Geometry x="-445" y="-6" w="0" h="0"/>
+		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
+		<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
+		<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+		<Channel index="1" name="Sample Output Channel 2" direction="output" type="samples"/>
+		<Gui state="normal" hidden="true" generic="true">
+			<Geometry x="829" y="252" w="462" h="221"/>
+		</Gui>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1303822227" type="828532042" displayName="Triode_0" processingMode="process">
+			<Geometry x="-165" y="22" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="16" numMidiOut="16" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="false" generic="true">
+				<Geometry x="807" y="409" w="474" h="162"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<CustomData name="VSTChunk">eJxzTs7zZmBguOBW4ZQNpBkNk1K9QDQUDyhwhrjNxK3CGcNtIUWZ+Smp2PXZNzAwAAATFwxK</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">216</CustomData>
+			<CustomData name="VSTChunkSum">213</CustomData>
+			<CustomData name="curProg">0</CustomData>
+		</Bidule>
+		<Bidule id="UID_1303822228" type="828600146" displayName="Saturator_0" processingMode="process">
+			<Geometry x="-164" y="58" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="16" numMidiOut="16" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="false" generic="true">
+				<Geometry x="808" y="203" w="474" h="162"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.666667</Parameter>
+			<CustomData name="VSTChunk">eJxzTs7zZmBguOBW4ZQNpBkNk/ODQDQUDyhwhrjNxK3CGcNtwYklpUWJJflFWPTZa61aDQBICg7N</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">216</CustomData>
+			<CustomData name="VSTChunkSum">-53</CustomData>
+			<CustomData name="curProg">0</CustomData>
+		</Bidule>
+		<Bidule id="UID_1303822229" type="1365590851" displayName="FSQ1964_1" processingMode="process">
+			<Geometry x="14" y="-172" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="180" y="144" w="920" h="484"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="13" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.262500</Parameter>
+			<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.875000</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.150000</Parameter>
+			<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.137500</Parameter>
+			<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.800000</Parameter>
+			<Parameter id="7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="8" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.875000</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.137500</Parameter>
+			<Parameter id="10" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.100000</Parameter>
+			<CustomData name="VSTChunk">eJx1k71q3EAUhW+aVFukNaQYCBhSpIlSBetqjUN+wEXIj4PBhWfFzEqwK21mJBOn2iqVO1ejylWqvEC69JEewJ2rfQd3uXckvNq1IhikAd1P5xydAQBw7habeoQvAosAy9C54whgQWvp7039mNYoOjDntpAzkaTTxMJEQRafgwUlFjMlrXpZuR3iHIZNXYda79LzBWq9CiuXdqz3xDnh5/CNyoqZEpM8twUMsKC7tP5Bmk4jZv8ljcTvWKesCWv61pGMy3IuinJC40ZZlcVqk7UMmaP1T2ROEATEvMG+LoAxTumd/TgvbZHGYlqmhTQCtljsp/E6LvxiVuXeRX1WQDkGweU91nPY1gVAWe019S9kfcyi/ZauK/J4iK9MObfimVBZIlnS/1kj5Bmer9zvu7y0PuMMI/a9xRrQNfY94HmtH9LcU6+FGS039ZypXuFbaWzSNWKIxd5oBvnO3lgj+aSMnnhWEBx0zB38IL/nRthEmoUojMxsSiXZ0PWIs6X3/yD3q/UDsGZZ/x8fkP9P+TcKvtU1zOKMOLM9ZhDvdcT/tu+x7fEKP8+I4FlCG/W1VINdbTtWOec7pvVR1O9qm+kV9rsKAyyepRV2Z8l3rN2vO0HfoP01fpFmLs7WwPtnaOw9dryOWePm2T7xff2Y6+KuXAOsf6ZRZME=</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">1064</CustomData>
+			<CustomData name="VSTChunkSum">-1582</CustomData>
+			<CustomData name="curProg">2</CustomData>
+		</Bidule>
+		<Bidule id="UID_1305799593" type="1448035656" displayName="VoxengoBoogex_0" processingMode="process">
+			<Geometry x="-92" y="-57" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="3" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="388" y="108" w="504" h="556"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="9" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.761800</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.166800</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.884300</Parameter>
+			<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.382200</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.361900</Parameter>
+			<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="8" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.546200</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.375600</Parameter>
+			<Parameter id="10" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.180969</Parameter>
+			<Parameter id="11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.800000</Parameter>
+			<Parameter id="12" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.923439</Parameter>
+			<Parameter id="13" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.800000</Parameter>
+			<Parameter id="14" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.487931</Parameter>
+			<Parameter id="15" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.800000</Parameter>
+			<Parameter id="16" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.173583</Parameter>
+			<Parameter id="17" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.733184</Parameter>
+			<Parameter id="18" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.800000</Parameter>
+			<Parameter id="19" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.684000</Parameter>
+			<Parameter id="20" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="21" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="22" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<CustomData name="VSTChunk">eJwBcQWO+lZYQhphBQAAAAAAAOW9TNp4AeWYf2xTVRTH336CZUNhijITaEzwBzDd2mKCY33p1q7tXF+7buwXI1sZZS1bt8raQbUZg2wal2UQE6N/qFtcJLpMYPCHkkyBLESzCEZAMdMoYpwhUyMIMQpB3+167z197zXvzbUJiUuWNuedd+6953x6vuc9FcMwi/h/o3uHK9gW4L8xmUwK0+l3tbeGqu21uaWpDLMSmfk/tqzv2BL+ajr/vdxeYzZYOfWW/K2VGSUsNtusRmweOrtWnxX1tljNFmwPu7ax90TtDouh0oRifHhkUr8oarRvrkKmm2Un9DissY4z2KwlyMwwPexicnuFds7GMMCmwza8jNFprY4sM3lhCbm5ys5FbO9wp/TZ0YCmCnWButTJf/Ar/W7fSDYQuVBcg8xnPytngb+G+PfsaCN54P01akl/LfF/6PxfML42nj9O3McnC+BGdSTQ9fFCuLBOOpBOjQMN5z7FqqInNjrrHM5IHlCFSb55q70yUgZoLjEUWzlT1NzD5jBpERasXJXJyRnKrTbH5vK5embwt+VELjKMqVZ0GQVFnPmD7c2eBXL2RMNqdiGcLR67TcqQKM5638pWzhm7oZtsQAlnF2zbYLllOXslxEB/Wc5uv/y8NGd/fqqBgWQ5W3fScZdw1rzL7fItkLPphxuUc1b8+Yywnx1SZZLsJYqz1/5xiDhDDRL0J9rP0g9OF+EfuBLOUCDgL8vZ2twRyLEsZ/cf3g03SvvZFJcDF5blLHPfq/ok97Pl8v0MyZff29bmanErFE7PcRU5JxDO1nVPS4I2khIWC+e3HoYVCKdm5hypQ6JAe/LgsB4rLBbOzktOWD8KGlN5SAq0ozNV0J8KZxzQUoeehf5UOH1nVpG88SBj0IJTj8X6Y73rWB4TiII2M+6EgTBoGd+sh4GocK7p6ks2aAqEE/24SzzBlhaXeu5DIW6nN/5IuAC4TWl0krjdavhVjwcoMqcVqS4VCXBb75ac065cDZLW5LDMc07beieN3Ixxi9vXlk7US+H2VcALq0hxq/fshVXHfS0ubqNf7iZ5A7jNVpthfC0Zr/KOvSmtn++1+uDCGLdw83YYiOK2b82RZOOGRnmZOQ1JQHMwEPC2t6h93u0KYcvQLSNnBbChIkoNa188Uijubaav/ULYLI7ED2ta7XFRb+t6bgusCe1t3c+8CGEokJ61KWyNe7tIHnh4MGyChwja22y9KdAf9zaRP+5t37/UCDdKe1ux3gMDYdgEgShsGx7NT/awtlQeNiTjFrerK6Q2ejsDClm7fj6PHFUBa4ZrnWLWLI6wkLUzByjCidLRxtfHRKyd+qUblpCylj9slmKt5ioH/Slrtr4mkgfAWtoLDdCfsnZ6cAjGx6yd64/RadrYhq8EYCDK2ttNZXBhzJphoj7WH0M7eFifbNYUNLZ0nrWdXp9XIWU9H1wm2QKU9R8tkOxovdn3iikr9HObBPJ57cYUCQsou5x3XxEeuOYtn7kVO0XyGSiNqSqlbP/YJ/OSz/FJCyw27mhx5XO2YyX0l6VsbGBQWj4nat8lmeLxxpTFlc87F/ckWz6z5DsamtY6ePl0qUO71B63S6mANv1En9oBbps+SpXELeW7VDFuq29kCR8Obp6YJkkEuCFd/s+4oQcWfDOe1n4eeBz+9ilufwRDZAN8FWUFlDPvgfhg3AQ6RpsaZ0iF/hi3i2/o4H5oU3twWR28QJvaSMAAA2HcBGMoFVAeBUb8FPrAQD85LnrXFn2rNrq/gpiVv1VDS8hMa2gH3va7g7X3/54gh0wUa7+FWRFr4z9YYQn/t6ytuDVL801ZW7VilJhjWEMwxX2DK8Pav9SoePib5apf</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">1393</CustomData>
+			<CustomData name="VSTChunkSum">5852</CustomData>
+			<CustomData name="curProg">0</CustomData>
+		</Bidule>
+		<Bidule id="UID_1305799616" type="1765954371" displayName="Tube Screamer_0" processingMode="passthrough">
+			<Geometry x="-188" y="106" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="402" y="276" w="476" h="220"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="15" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.812500</Parameter>
+			<CustomData name="VSTChunk">eJxzTs7zZmBgueJW4ZTNwMDAmOkU7AyigViAYYCBM9htDDZuFc7obmP2zMssUTDErs8ehgOIMMOICmYYU8EMEyqYYUoFM8yoYIY5FcywoIIZllQww9CACmZgT6ikmYE9oZJmBvaESpoZ2BMqaWZgT6ikmYE9oSKbAQBPtXpv</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">1244</CustomData>
+			<CustomData name="VSTChunkSum">-952</CustomData>
+			<CustomData name="curProg">0</CustomData>
+		</Bidule>
+		<Bidule id="UID_1305799762" type="com.plogue.Dummy" displayName="Audio Dummy_0" processingMode="process">
+			<Geometry x="-89" y="145" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1305799769" type="com.plogue.Gate" displayName="Gate_6" processingMode="process">
+			<Geometry x="-361" y="175" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="false" generic="true">
+				<Geometry x="551" y="0" w="98" h="144"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1305799770" type="com.plogue.ParameterModulator" displayName="Parameter Modulator (abs)_23" processingMode="process">
+			<Geometry x="-458" y="101" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="500" y="300" w="279" h="171"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1305799774" type="1196180310" displayName="GlaceVerb_0" processingMode="process">
+			<Geometry x="9" y="-123" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="2" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="264" y="217" w="751" h="338"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="63" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.660000</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.336667</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.680000</Parameter>
+			<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.695000</Parameter>
+			<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.485000</Parameter>
+			<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.265000</Parameter>
+			<Parameter id="7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.065000</Parameter>
+			<Parameter id="8" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.285000</Parameter>
+			<Parameter id="10" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.450000</Parameter>
+			<Parameter id="11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="12" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.098636</Parameter>
+			<Parameter id="13" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.300000</Parameter>
+			<Parameter id="14" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.226000</Parameter>
+			<CustomData name="VSTChunk">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</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">10452</CustomData>
+			<CustomData name="VSTChunkSum">-1192</CustomData>
+			<CustomData name="curProg">2</CustomData>
+			<CustomData name="uniqueID">1196180310</CustomData>
+		</Bidule>
+		<Bidule id="UID_1305799776" type="1194878776" displayName="G8_0" processingMode="process">
+			<Geometry x="-88" y="194" w="0" h="0"/>
+			<ChannelConfig numSampleIn="4" numSampleOut="2" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="392" y="192" w="496" h="388"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.316501</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.296751</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.497501</Parameter>
+			<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.339126</Parameter>
+			<Parameter id="7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.375000</Parameter>
+			<Parameter id="8" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="10" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.275000</Parameter>
+			<CustomData name="VSTChunk">eJyr4llkx8DQYA/C699PB7IZGNJ2/LO7v3AtkH0AKsfAcPZMj11AUX56UWKuIUPcXKkXSpOlFoixiOh8EmLgUAayRVhEALQwF7Q=</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">76</CustomData>
+			<CustomData name="VSTChunkSum">578</CustomData>
+			<CustomData name="curProg">0</CustomData>
+			<CustomData name="uniqueID">1194878776</CustomData>
+		</Bidule>
+		<Bidule id="UID_1305799780" type="877033292" displayName="George Yohng's W1 Limiter_3" processingMode="process">
+			<Geometry x="15" y="-241" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="3" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="false" generic="true">
+				<Geometry x="767" y="131" w="474" h="220"/>
+			</Gui>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.622073</Parameter>
+			<CustomData name="VSTChunk">eJwTZWBg+A8FTEC2KAMEeKghSfAA2WpQicr8jLx03XLDnMzczJLUIl1DBhUklWxAtgoDMmiwh7FwqWMkUh3IeWfP+NjB1EkgqeOC8mFAFEmOGclbDABTdEPY</CustomData>
+			<CustomData name="VSTChunkCompressed">yes</CustomData>
+			<CustomData name="VSTChunkSize">240</CustomData>
+			<CustomData name="VSTChunkSum">763</CustomData>
+			<CustomData name="curProg">0</CustomData>
+			<CustomData name="uniqueID">877033292</CustomData>
+		</Bidule>
+		<Link producerId="UID_1305799616" producerChannel="0" listenerId="UID_1303822228" listenerChannel="0"/>
+		<Link producerId="UID_1305799616" producerChannel="0" listenerId="UID_1303822228" listenerChannel="1"/>
+		<Link producerId="UID_1303822228" producerChannel="1" listenerId="UID_1303822227" listenerChannel="1"/>
+		<Link producerId="UID_1303822228" producerChannel="0" listenerId="UID_1303822227" listenerChannel="0"/>
+		<Link producerId="UID_1305799762" producerChannel="0" listenerId="UID_1305799616" listenerChannel="0"/>
+		<Link producerId="UID_1305799762" producerChannel="1" listenerId="UID_1305799616" listenerChannel="0"/>
+		<Link producerId="UID_1305799769" producerChannel="0" listenerId="UID_1305799770" listenerChannel="0"/>
+		<Link producerId="UID_1305799593" producerChannel="0" listenerId="UID_1305799774" listenerChannel="0"/>
+		<Link producerId="UID_1305799774" producerChannel="0" listenerId="UID_1303822229" listenerChannel="0"/>
+		<Link producerId="UID_1305799593" producerChannel="1" listenerId="UID_1305799774" listenerChannel="1"/>
+		<Link producerId="UID_1305799774" producerChannel="1" listenerId="UID_1303822229" listenerChannel="1"/>
+		<Link producerId="UID_1303822227" producerChannel="0" listenerId="UID_1305799593" listenerChannel="0"/>
+		<Link producerId="UID_1303822227" producerChannel="1" listenerId="UID_1305799593" listenerChannel="1"/>
+		<Link producerId="UID_1305799617" producerChannel="0" listenerId="UID_1305799776" listenerChannel="0"/>
+		<Link producerId="UID_1305799776" producerChannel="0" listenerId="UID_1305799762" listenerChannel="0"/>
+		<Link producerId="UID_1305799617" producerChannel="1" listenerId="UID_1305799776" listenerChannel="1"/>
+		<Link producerId="UID_1305799776" producerChannel="1" listenerId="UID_1305799762" listenerChannel="1"/>
+		<Link producerId="UID_1303822229" producerChannel="0" listenerId="UID_1305799780" listenerChannel="0"/>
+		<Link producerId="UID_1305799780" producerChannel="0" listenerId="UID_1305799617" listenerChannel="0"/>
+		<Link producerId="UID_1303822229" producerChannel="1" listenerId="UID_1305799780" listenerChannel="1"/>
+		<Link producerId="UID_1305799780" producerChannel="1" listenerId="UID_1305799617" listenerChannel="1"/>
+		<VirtualParameter id="0" source="UID_1305799769" param="0" displayName="bypass TbSc"/>
+		<VirtualParameter id="1" source="UID_1305799616" param="-8" displayName="tube screamer" GUI="checkbox"/>
+		<VirtualParameter id="2" source="UID_1303822227" param="-8" displayName="triode" GUI="checkbox"/>
+		<VirtualParameter id="3" source="UID_1303822228" param="-8" displayName="saturator" GUI="checkbox"/>
+		<VirtualParameter id="4" source="UID_1305799593" param="-8" displayName="boogex" GUI="checkbox"/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+	<ParameterLink producerId="UID_1305799770" producerParamId="0" listenerId="UID_1305799616" listenerParamId="-2"/>
+</BoardLayout>
